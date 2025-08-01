@@ -9,8 +9,8 @@ retriever:
   top_k:10
 
 llm:
-  grok:
-    provider: "grok"
+  groq:
+    provider: "groq"
     model_name: "deepseek-r1-distill-llama-70b"
     temprature: 0
     max_output_tokens: 2048
